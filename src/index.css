@@ -11,8 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 html, body {
-    background-color: #000;
-    /* background-color: var(--color2); */
+    background-color: var(--color2);
 }
 
 .font-khand {
