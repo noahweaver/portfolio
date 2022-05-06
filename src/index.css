@@ -1,63 +1,37 @@
 /* color palette */
-:root {
+/* old color scheme */
+/* :root {
   --color1: #182628;
   --color2: #65CCB8;
   --color3: #57BA98;
   --color4: #3B945E;
   --color5: #F2F2F2;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+} */
 
 html, body {
-    background-color: var(--color2);
+    /* background-color: var(--color2); */
+    /* credit for background photo from unsplash */
+    /* add link to bottom left of background and make sticky */
+    /* https://unsplash.com/photos/L8126OwlroY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink  */
+    background: #cccccc url('./assets/federico-beccari-L8126OwlroY-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.font-khand {
-    font-family: 'Khand', sans-serif;
+.hero {
+    display: flex;
+    justify-content: center;
+
 }
 
-.font-rocksalt {
-    font-family: 'Rock Salt', cursive;
+.hero > div {
+    background-color: red;
 }
 
-.name {
-    font-size: 3.0rem;
-    text-align: center;
-}
-
-.occupation {
-    font-size: 1.15rem;
-    text-align: center;
-}
-
-.coming-soon {
-    font-size: 5.5rem;
-    /* indianred */
-    color: #cd5c5c;
-    /* deepskyblue */
-    text-shadow: 3px 3px #110;
-    text-align: center;
-}
-
-.coming-soon-container {
-  display: flex;
-  width: 75%;
-  justify-content: center;
-}
-
-.wait-for-it {
-  height: 25%;
-  width: 25%;
-  padding-bottom: 15px;
-}
-
-.icon {
-    color: #000;
-    cursor: pointer;
-}
-
-.icon:hover {
-    color: #81101e;
+.hero > img {
+    height: 600px;
+    width: 450px;
 }
